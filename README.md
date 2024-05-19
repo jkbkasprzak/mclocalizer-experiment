@@ -42,7 +42,7 @@ defects4j query -A -p Closure -q "bug.id,revision.id.fixed,classes.modified" > c
 ```
 3. Choose random sample of fixing commits from `closure-mclocalizer.csv` and manually verify if the commit is indeed a **fixing commit** and what top level java classes are modified, excluding test classes. Save results to `closure-manual.csv`.
 4. Compare `closure-mclocalizer.csv` with `closure-defects4j.csv` as a control set.
-    1. Calculate FCP, FCR, ABSP, ABSR
+    1. Calculate FCR, ABSP, ABSR
     2. Save results to `cmp-mclocalizer-defects4j.csv`
 5. Compare `closure-mclocalizer.csv` with `closure-manual.csv` as a control set.
     1. Calculate FCP, ABSP, ABSR
@@ -50,3 +50,14 @@ defects4j query -A -p Closure -q "bug.id,revision.id.fixed,classes.modified" > c
 
 ## File structure
 TODO
+
+## Results
+### Compare McLocalizer with Defects4J
+|McLocalizer fixing commits|Defects4J fixing commits|Common commits|FCR|ABSP|ABSR|
+|---:|---:|---:|---:|---:|---:|
+|2540|176|176|1.000|0.866|1.000|
+
+### Compare McLocalizer with manually verified commits
+|McLocalizer fixing commits|Manually verified commits|Manually verified fixing commits|FCP|ABSP|ABSR|
+|---:|---:|---:|---:|---:|---:|
+|2540|?|?|?|?|?|
