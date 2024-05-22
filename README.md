@@ -58,6 +58,6 @@ TODO
 |2540|176|176|1.000|0.866|1.000|
 
 ### Compare McLocalizer with manually verified commits
-|McLocalizer fixing commits|Manually verified commits|Manually verified fixing commits|FCP|ABSP|ABSR|
-|---:|---:|---:|---:|---:|---:|
-|2540|?|?|?|?|?|
+|McLocalizer fixing commits|Manually verified commits|Confirmed fixing commits|Confirmed pure fixing commits|Confirmed fixing commits with tracker|FCP|ABSP|ABSR|
+|---:|---:|---:|---:|---:|---:|---:|---:|
+|2540|100|94|73|25|0.940|1.000|1.000|
