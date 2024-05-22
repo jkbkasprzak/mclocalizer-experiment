@@ -1,22 +1,22 @@
 McLocalizer fixing commit,Fixing commit,Pure fixing commit,Java class bug scope,Bug tracker,Notes
 b8cbc9c6aae5c9ba8fbb9974008490d6b9b56cbd,1,1,com.google.javascript.jscomp.TypedScopeCreator,,
-02dd5f62ac04882975cfb13de8618887d1bdf75e,1,1,com.google.javascript.jscomp.NTIScope ,,
-03fb30b7edcf9541e70c56c5424afc9fd826efa4,1,1,com.google.javascript.jscomp.CheckJSDoc ,https://github.com/google/closure-compiler/issues/1126,
-455ee2ba9c638954e8af58320b7ecb52fd969b3d,1,1,com.google.javascript.jscomp.NewTypeInference; com.google.javascript.jscomp.newtypes.JSType ,,
+02dd5f62ac04882975cfb13de8618887d1bdf75e,1,1,com.google.javascript.jscomp.NTIScope,,
+03fb30b7edcf9541e70c56c5424afc9fd826efa4,1,1,com.google.javascript.jscomp.CheckJSDoc,https://github.com/google/closure-compiler/issues/1126,
+455ee2ba9c638954e8af58320b7ecb52fd969b3d,1,1,com.google.javascript.jscomp.NewTypeInference; com.google.javascript.jscomp.newtypes.JSType,,
 5b9fa7febda6a77a2db30a8e5d81967858f9dd56,1,1,com.google.javascript.jscomp.OptimizeParameters,,
-306543734d4d02925a10ad1c68daa69c4f4ea630,1,1,com.google.javascript.jscomp.parsing.ParserRunner; com.google.javascript.jscomp.parsing.parser.FeatureSet; com.google.javascript.jscomp.parsing.parser.Parser ,https://github.com/google/closure-compiler/issues/2552,
+306543734d4d02925a10ad1c68daa69c4f4ea630,1,1,com.google.javascript.jscomp.parsing.ParserRunner; com.google.javascript.jscomp.parsing.parser.FeatureSet; com.google.javascript.jscomp.parsing.parser.Parser,https://github.com/google/closure-compiler/issues/2552,
 f7bae0d11495f12ab2f9d7ddc1c3508219ec109a,1,1,com.google.javascript.jscomp.AliasStrings,,
 6abb76d01b678e4df62a5a79f773747bf5c3bf2a,1,1,com.google.javascript.jscomp.StatementFusion,,
 bd9c7b620384fe5a98772729001ed56304459bc6,1,0,,,Fix+Other
 d5501d9945b0bd222b279dd1a9a98fcb1d6f9c70,1,0,,,Rollback
-9cfa692f71edd187e8b5167c06cc54c51e95323a,1,1,com.google.javascript.jscomp.AbstractScope; com.google.javascript.jscomp.NodeUtil; com.google.javascript.jscomp.PureFunctionIdentifier ,,
+9cfa692f71edd187e8b5167c06cc54c51e95323a,1,1,com.google.javascript.jscomp.AbstractScope; com.google.javascript.jscomp.NodeUtil; com.google.javascript.jscomp.PureFunctionIdentifier,,
 0750653dfc4b0e05e0ea375f9a11246c087baf0c,1,1,com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax,,
-6d38965a1e0a3a61435b9bebc91ff1ba0a64013a,1,1,com.google.javascript.jscomp.TypeInference; com.google.javascript.jscomp.TypedScopeCreator; com.google.javascript.rhino.Node ,https://github.com/google/closure-compiler/issues/1023,
+6d38965a1e0a3a61435b9bebc91ff1ba0a64013a,1,1,com.google.javascript.jscomp.TypeInference; com.google.javascript.jscomp.TypedScopeCreator; com.google.javascript.rhino.Node,https://github.com/google/closure-compiler/issues/1023,
 508e3c2338c65a98b4a372e26bd45d2ee47c5f89,1,1,com.google.javascript.jscomp.LintPassConfig; com.google.javascript.jscomp.Linter; com.google.javascript.refactoring.ErrorToFixMapper,,
 cbf615304f21c433b4174f9b395b6513edd1f5b9,0,0,,,Feature
 f9c107635f118bc67c6a0532302a37eca150f2c9,0,0,,,Rollback
 b48f332e61de5365ccc76ee2127a77bf808d7eff,1,0,,http://github.com/google/closure-compiler/issues/2954,Fix+Other
-efefb736fccc2039b5fb079710b3f2ac82b8c6e4,1,1,com.google.javascript.rhino.jstype.NamedType; com.google.javascript.rhino.jstype.ObjectType ,873,
+efefb736fccc2039b5fb079710b3f2ac82b8c6e4,1,1,com.google.javascript.rhino.jstype.NamedType; com.google.javascript.rhino.jstype.ObjectType,873,
 0a709d3467bc5513cf1650339994d90f7f1ac891,1,1,com.google.javascript.jscomp.SymbolTable,,
 5588adc1eda85ad078b700f7f2e3b64e7d793620,1,0,,https://github.com/google/closure-compiler/issues/834,Fix+Other
 3d2e6feab2bdaa8759c7d19fc31f4e589ef0d579,1,1,com.google.javascript.jscomp.PeepholeCollectPropertyAssignments,,
@@ -24,7 +24,7 @@ efefb736fccc2039b5fb079710b3f2ac82b8c6e4,1,1,com.google.javascript.rhino.jstype.
 d90e6ffb441ffa028313a9fffb7666eab8c62793,1,1,com.google.javascript.rhino.jstype.ProxyObjectType,,
 91dbb31cbf778c44b65c664e7f63ffcc9b6418c5,0,0,,,Feature
 cfe27a7f9d8c8016f8710351b49418907cf26823,1,1,com.google.javascript.jscomp.Compiler,,
-66527dd399f7142edc491037b4488b158073ae55,1,1,com.google.javascript.jscomp.AbstractPeepholeOptimization; com.google.javascript.jscomp.PeepholeFoldConstants; com.google.javascript.jscomp.PeepholeOptimizationsPass; com.google.javascript.jscomp.PeepholeRemoveDeadCode;,,
+66527dd399f7142edc491037b4488b158073ae55,1,1,com.google.javascript.jscomp.AbstractPeepholeOptimization; com.google.javascript.jscomp.PeepholeFoldConstants; com.google.javascript.jscomp.PeepholeOptimizationsPass; com.google.javascript.jscomp.PeepholeRemoveDeadCode,,
 9cad29bba472becff9b5450fc336feb96fe36d66,0,0,,,Refactor
 cfb86dc6888524c4c02d2bc5f07a2ee8c8fdc5e0,1,0,,,Fix+Other
 d728e389df6eaac1db02e61746394260fea376bd,1,1,com.google.javascript.jscomp.CompilationLevel; com.google.javascript.jscomp.CompilerOptions,,
@@ -61,7 +61,7 @@ d8b611311358d431affd8a3ef03650bb3ebfaf57,1,1,com.google.javascript.jscomp.CheckC
 62d5114975373fb0b70d23eba70288d8ada4aa20,1,0,,,Fix+Other
 cb88c48427ac126a0eb480b36fa2698d5b90821f,1,0,,,Rollforward
 646a50188300dedfb8a8022adc2681ac846e44be,1,0,,,Fix+Other
-227625182a4754c01565b4a6ca469f9c9daec42a,1,1,com.google.javascript.jscomp.Compiler; com.google.javascript.jscomp.DartSuperAccessorsPass,,
+227625182a4754c01565b4a6ca469f9c9daec42a,1,1,com.google.javascript.jscomp.Compiler,,
 d8cfecf696919c717bff63b65a8758957c4868b0,1,1,com.google.javascript.jscomp.GlobalTypeInfo; com.google.javascript.jscomp.NewTypeInference; com.google.javascript.jscomp.newtypes.JSType; com.google.javascript.jscomp.newtypes.JSTypeCreatorFromJSDoc,,
 7f6700e2b54af3af409f3e8851a0d98a72beef4b,1,1,com.google.javascript.rhino.TokenStream,921,
 514ebffc40b0f66528199112457e2aa22f8c46db,1,1,com.google.javascript.jscomp.CodeGenerator,,
@@ -71,7 +71,7 @@ cd556c28b834183d23b7383deef42e3db8c9a379,1,0,,https://github.com/google/closure-
 df0eed65546f07b1c2913dbab3e48873e93631a6,1,1,com.google.javascript.jscomp.InferJSDocInfo,,
 ce3d3a25ce64d15e967cdc9e191072071872e8c7,1,1,com.google.javascript.jscomp.Es6RewriteClass; com.google.javascript.rhino.Node,,
 5fde503a0846406893ebdfdc04388875ea423d81,1,1,com.google.javascript.jscomp.NodeIterators,,
-e6f55d83739cc394b2a3561ba2f24ff86d3e9c42,1,1,com.google.javascript.jscomp.parsing.ParserRunner; com.google.javascript.jscomp.parsing.parser.FeatureSet; com.google.javascript.jscomp.parsing.parser.Parser ,https://github.com/google/closure-compiler/issues/2552,
+e6f55d83739cc394b2a3561ba2f24ff86d3e9c42,1,1,com.google.javascript.jscomp.parsing.ParserRunner; com.google.javascript.jscomp.parsing.parser.FeatureSet; com.google.javascript.jscomp.parsing.parser.Parser,https://github.com/google/closure-compiler/issues/2552,
 b7d811963623aa80cb67ac1f84fa53c545f86816,1,1,com.google.javascript.jscomp.ant.CompileTask,https://github.com/google/closure-compiler/issues/566,
 d2c1957848f8a77194335eb9d3d587470c2c51f2,1,0,,https://github.com/google/closure-compiler/pull/1619,
 929ba03a950b1dfcd60762f954e4833f433cc1d4,1,1,com.google.javascript.jscomp.Es6RewriteBlockScopedDeclaration,,
