@@ -2,7 +2,7 @@
 
 This repository contains the files used during the McLocalizer experiment.
 
-The goal of the experiment is to evaluate the quality of the fixing commits and the Java class bug scopes identified by the McLocalizer in the context of the Closure Compiler project. <br>
+The goal of the experiment was to evaluate the quality of the fixing commits and the Java class bug scopes identified by the McLocalizer in the context of the Closure Compiler project. <br>
 **Fixing commit** is a commit that removes the bug. <br>
 **Bug scope** is a set of classes that must be changed to remove the bug. <br>
 
